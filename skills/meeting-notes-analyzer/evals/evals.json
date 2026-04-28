@@ -1,0 +1,25 @@
+```json
+{
+  "skill_name": "meeting-notes-analyzer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We had a good meeting today about the Q3 marketing campaign. The main topics were brand guidelines, ad spend allocation, and the website redesign. Key points: We need to finalize the color palette by end of week. Marketing said they can allocate $15k to paid ads, but Sarah mentioned that might not cover everything. For the website, the content team thinks we should prioritize the product page over the 'About Us' section. Next steps: John will draft the final ad spend proposal. Emily needs to gather the existing brand guideline document for review.",
+      "expected_output": "A structured summary detailing the key points, the final decision (if any), and clear, assigned action items.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Call notes: Marketing, Product, Dev. Problem: Login flow is slow. Decision: We are going to pivot to OAuth 2.0 integration instead of building proprietary API keys. Dev to scope this out and give us an estimate by Friday. Marketing needs to draft the user comms strategy explaining the change. Product to sync with Dev on the technical requirements ASAP.",
+      "expected_output": "A structured summary highlighting the core problem, the major decision made (the pivot), and specific tasks with owners (Dev, Marketing, Product).",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Rough notes from a discussion on streamlining HR processes. We talked about onboarding, expense reports, and PTO tracking. Consensus was that we should look into an integrated HRIS solution. Someone needs to gather quotes from three potential vendors (Workday, BambooHR, and ADP). Need to schedule a follow-up next week.",
+      "expected_output": "A structured summary that captures the overall theme (HR process improvement), the high-level recommendation (HRIS solution), and the concrete next step (vendor research and scheduling follow-up).",
+      "files": []
+    }
+  ]
+}
+```
