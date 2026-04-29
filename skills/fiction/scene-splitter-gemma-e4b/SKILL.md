@@ -5,7 +5,7 @@ description: |
   Use this skill when a user provides a single novel chapter and requests it be broken down by scene, plot shift, or character change.
   It ensures the original file remains untouched and saves all segmented scenes to a new directory.
   Make sure to use this skill whenever the user asks to split a novel chapter into scenes, break down a manuscript by structural unit, or analyze the pacing/structure of a continuous narrative file.
-compatibility: required: file input (novel chapter text file)
+compatibility: "required: file input (novel chapter text file)"
 ---
 # Scene Splitter Skill: A Literary Editor's Assistant
 
