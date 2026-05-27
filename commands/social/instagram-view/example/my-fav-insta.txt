@@ -1,9 +1,0 @@
-# Instagram accounts to fetch
-# One username per line (lines starting with # are ignored)
-natgeo
-nasa
-9gag
-davidgilmour
-rogerwaters
-gorillaz
-alan_schaller
